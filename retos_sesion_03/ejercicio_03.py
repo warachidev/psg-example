@@ -1,0 +1,7 @@
+print ("TUTORIAL PARA BARRER UNA HABITACIÓN")
+print ("1. En primer lugar ordena y recoje todos lo objetos que tengas tirado por el suelo")
+print ("2. Agarra la escoba con ambas manos, una mano en la parte superior de la escoba y la otra por la mitad")
+print ("3. Empieza a arrastras toda la basura del suelo con la escoba y juntala en un solo lugar")
+print ("4. cuando Tengas toda la basura amontonada utiliza un recojedor para levantar la basura")
+print ("5. Utiliza la escoba para subir la basura al recojedor")
+print ("6. Cuando recojas la basura, depositala en una bolsa y un bote de basura")
