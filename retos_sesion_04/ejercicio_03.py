@@ -1,0 +1,7 @@
+print ("Como se juega UNO")
+print ("1. Se reparten 7 cartas para cada jugador y se deja el mazo en el centro de la mesa.")
+print ("2. La ronda la inicia el jugador que se ubica a la derecha de quien reparte las cartas.")
+print ("3. Todos los jugadores van poniendo por turnos sobre la mesa sus cartas, que deben ser del mismo color y/o del mismo tipo que la que queda allí boca arriba, salvo si es negro.")
+print ("4. Si un jugador no puede poner carta en su turno porque no tiene una que se ajuste al color o al tipo que hay encima de la mesa, debe tomar una nueva carta del mazo.")
+print ("5. Cuando, en algún momento de la partida, le quede una sola carta entre manos, tendrá que gritar 'uno' e intentar quitársela de encima cuanto antes, para coronarse ganador de la ronda de de juego.")
+print ("6. El jugador que se quede con una carta y se olvide de gritar 'uno' antes de que el siguiente rival juegue en su turno, queda penalizado con la obligación de levantar otra carta de la baraja.")
