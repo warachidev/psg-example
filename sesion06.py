@@ -1,3 +1,4 @@
+# %%
 print ("Tipos de datos booleanos")
 print (True)
 print (False)
