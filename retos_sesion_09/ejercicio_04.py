@@ -16,10 +16,12 @@ print("Producto mas barato ",min(precios))
 print("Productos en total: ", len(productos))
 print("Precio total de los produtos: ", sum(precios))
 
-productos.sort()
-precios.sort()
-print(productos)
-print(precios)
 
-productos.clear()
-print(productos)
+#Ordena los productos alfabéticamente y precios si es posible
+lista = list(zip(productos, precios))
+print(lista)
+lista.sort()
+print("Lista Ordenada Alfabeticamente: ", lista)
+
+lista.clear()
+print("Lista vacia: ",lista)
