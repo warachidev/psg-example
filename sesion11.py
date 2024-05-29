@@ -143,6 +143,13 @@ print(diccionario)
 diccionario.clear()
 print(diccionario)
 # %%
+print ("Método pop(clave)")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+gato = diccionario.pop('gato')
+print(gato, type(gato))
+print(diccionario)
+# %%
 print ("Método popitem()")
 diccionario = {'perro': '🐶', 'gato': '🐱'}
 print(diccionario)
@@ -159,3 +166,47 @@ copia['ave'] = '🦅'
 print(diccionario)
 print(copia)
 # %%
+print ("Método copy()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+copia = diccionario.copy()
+print(copia)
+copia['ave'] = '🦅'
+print(diccionario)
+print(copia)
+# %%
+print ("Función len()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+longitud = len(diccionario)
+print(longitud)
+# %%
+print ("Función in  / not in")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+existe = 'perro' in diccionario
+print(existe, type(existe))
+no_existe = 'pez' not in diccionario
+print(no_existe, type(no_existe))
+# %%
+print ("Función iter()")
+diccionario = {'perro': '🐶', 'gato': '🐱', 'ave': '🐦'}
+print(diccionario)
+iterador = iter(diccionario.items())
+print(type(iterador))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
+siguiente = next(iterador)
+print(siguiente, type(siguiente))
+# %%
+print ("Diccionarios anidados")
+diccionario = {'perro': '🐶', 'gato': '🐱',  'ave': {'pajaro': '🐦', 'aguila': '🦅'}}
+print(diccionario)
+aves = diccionario['ave']
+print(aves)
+ave = aves['pajaro']
+print(ave)
+ave = aves['aguila']
+print(ave)
