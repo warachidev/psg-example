@@ -274,3 +274,48 @@ resultado = limpiar(cadena)
 print (cadena)
 print (resultado)
 # %%
+print ("Ejemplo 12")
+print ("1. Definir función")
+def numero_par(numero):
+    if numero == 0:
+        return 0
+    else:
+        return numero_par(numero-1) + 2
+ 
+print ("2. Llamar función")
+resultado = numero_par(10)
+print (resultado)
+# %%
+print("Ejercicio 12")
+def factorizacion(numero):
+    if numero == 1:
+        return 1
+    else:
+        return numero * factorizacion(numero-1)
+
+resultado = factorizacion(5)
+print(resultado)
+# %%
+def factorial(numero):
+    if numero == 0:
+        return 1
+    else:
+        return numero*factorial(numero-1)
+
+resultado = factorial(5)
+print (resultado)
+# %%
+print ("Ejemplo 13")
+cuadrado = lambda numero: numero**2
+resultado = cuadrado(5)
+print (resultado)
+resultado = cuadrado(10)
+print (resultado)
+# %%
+print("Ejercicio 13")
+cadena = "Python es un lenguaje de programación"
+limpiar = lambda cadena: "".join([letra for letra in cadena if letra.isalnum()]).upper()
+resultado = limpiar(cadena)
+print (cadena)
+print (resultado)
+# %%
